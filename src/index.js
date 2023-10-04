@@ -29,3 +29,4 @@ about.addEventListener('click', () => {
 	content.textContent = '';
 	displayInfo();
 });
+

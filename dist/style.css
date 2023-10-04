@@ -1,5 +1,6 @@
 body{
 	margin: 0;
+	background-color: black;
 }
 
 img{
@@ -15,8 +16,8 @@ h1{
 
 
 .header-container{
-	background: #eee;
-	color: #1d8a0d
+	background: #c7aff5;
+	color: #1414dc;
 }
 
 header{
@@ -61,9 +62,10 @@ nav li:hover{
 
 .intro{
 	text-align: center;
-	color: #267915;
+	color: #695bec;
 	margin: 0;
 	margin-bottom: 10px;
+	text-shadow: 1px 1px white;
 } 
 
 @media(min-width: 500px){
@@ -78,7 +80,7 @@ h3{
 
 
 .menu-content div{
-	background: #9ee394;
+	background: #c7aff5;
 	border-radius: 10px;
 	width: 90%;
 	max-width: 400px;
@@ -103,12 +105,14 @@ h3{
 }
 
 .about{
-	width: 90%;
+	width: 100%;
 	max-width: 700px;
 	margin: 0 auto;
-	background: #9ee394;
+	background: #c7aff5;
 	padding: 10px;
 	border-radius: 15px;
+	font-size: larger;
+	/* text-shadow: 2px 2px white; */
 }
 
 p:last-child{
@@ -116,8 +120,9 @@ p:last-child{
 	margin: 0;
 	padding: 5px 0;
 	border-radius: 5px;
-}
-
-/*.display-none{
+} 
+/* 
+.display-none{
 	display: none;
-}*/
+} */
+

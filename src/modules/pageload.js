@@ -16,6 +16,7 @@ function addHeader(){
 
 	const navbar = document.createElement('nav');
 	const navlist = document.createElement('ul');
+	
 
 	const navItemsHome = document.createElement('li');
 	navItemsHome.textContent = 'Home';
